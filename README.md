@@ -67,24 +67,11 @@ Manual fallback:
 - Verify each local README link opens the expected file.
 - Spot-check external source links in changed notes.
 
-## Local file security
+## Security note
 
-This repository includes `login.py` for basic local access control and permission hardening.
-
-```bash
-# 1) Create login credentials (stored in .login_auth.json)
-python3 login.py setup
-
-# 2) Verify login
-python3 login.py login
-
-# 3) After successful login, secure repository file permissions
-python3 login.py secure --target .
-```
-
-Notes:
-- The credentials file uses PBKDF2-HMAC-SHA256 password hashing with salt.
-- `.login_auth.json` is gitignored by default.
+- `login.py` was removed from this repository.
+- This repository no longer ships a local login/permission-hardening script.
+- Keep sensitive access controls outside this repo (for example: OS account controls, encrypted storage, and repository host access policies).
 
 ## License
 
