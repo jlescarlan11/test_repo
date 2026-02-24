@@ -1,68 +1,71 @@
-# Cebu City University Ranking Note
+# Philippines Topic Notes
 
-Source-controlled documentation for a single, evidence-based claim:
-which university is most consistently top-ranked in Cebu City, Philippines.
+A markdown-first knowledge repository for concise, evidence-oriented notes about Philippines-focused topics.
 
 ## Purpose
 
-This repository exists to keep one short research note accurate, scoped, and publishable.
-It is intentionally minimal and should not evolve into a general knowledge base.
+This repository contains short reference notes, not application code. Each note should answer one specific question with a clear conclusion and concise supporting rationale.
 
-## Authoritative Content
+## Repository Structure
 
-- [`test.md`](./test.md): Primary note containing the claim and supporting rationale.
-- [`README.md`](./README.md): Repository policy, workflow, and quality gates.
+- [`best-cat-philippines.md`](./best-cat-philippines.md): Practical cat breed guidance for Philippine conditions.
+- [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian comparison in native vs introduced context.
+- [`test.md`](./test.md): Note on top-ranked university in Cebu City.
+- [`README.md`](./README.md): Repository standards, workflow, and quality expectations.
 
-Files outside this scope are non-authoritative and should not be treated as research outputs.
+## Authoring Standard
 
-## Claim Scope
+All notes must follow these requirements:
 
-The note evaluates "best university in Cebu City" using repeatability across public rankings, not personal preference.
+- State the short answer in the opening paragraph.
+- Keep one primary question per file.
+- Distinguish factual claims from opinion.
+- Attribute factual claims to current, verifiable sources.
+- Use direct, concise wording.
 
-Evaluation lens:
-- Cebu City relevance
-- Visibility in national/international ranking systems
-- Cross-source consistency over time
+## Recommended Note Template
 
-Out of scope:
-- Program-specific rankings
-- Tuition/value judgments
-- Non-evidence-based preferences
+Use this structure for new files:
 
-## Editorial Policy
+1. `#` Title with the exact question/topic.
+2. Short answer (1-3 sentences).
+3. Supporting rationale (bulleted).
+4. Sources.
+5. Optional caveats/scope limits.
 
-All updates must follow these rules:
+## Contribution Workflow
 
-- Keep claims factual, bounded, and time-aware.
-- Avoid universal wording unless directly supported by evidence.
-- Exclude unrelated content from the primary note.
-- Prefer concise language over narrative commentary.
+1. Choose one note to add or update.
+2. Validate claims and refresh sources where needed.
+3. Run markdown quality checks.
+4. Perform manual readability and rendering review.
+5. Commit with a message that states what changed and why.
 
-## Update Workflow
+## Quality Gate (Production Readiness)
 
-1. Verify source freshness and methodology changes.
-2. Update [`test.md`](./test.md) only if evidence changes the conclusion or confidence.
-3. Ensure the note contains only in-scope content.
-4. Update this README when governance or process changes.
-5. Commit with a clear, audit-friendly message.
+A change is ready to merge when all items below are true:
 
-## Release Readiness Checklist
+- Markdown renders correctly.
+- Internal links resolve.
+- Claims are either sourced or explicitly labeled as opinion.
+- Scope is clear and not overstated.
+- Only intentional files are modified.
 
-Before merge or publication:
+### Suggested Local Checks
 
-- All cited sources are current and correctly interpreted.
-- The claim and rationale in `test.md` are internally consistent.
-- `test.md` contains no unrelated text.
-- Markdown renders correctly in a standard viewer.
-- Repository status is clean except intentional changes.
+Run these if available in your environment:
 
-## Repository Layout
+```bash
+markdownlint **/*.md
+markdown-link-check README.md
+```
 
-- [`README.md`](./README.md): Production documentation for standards and operations.
-- [`test.md`](./test.md): Canonical research note.
-- `best-cat-philippines.md`: Unscoped draft content (non-authoritative).
+If tools are unavailable, complete a manual pass for headings, links, and readability.
+
+## Versioning
+
+This repository currently does not use tagged releases. Production readiness is evaluated per-commit using the quality gate above.
 
 ## License
 
-No `LICENSE` file is currently present.
-Add one before public redistribution or downstream reuse.
+No `LICENSE` file is currently present. Add a license before public redistribution or external reuse.
