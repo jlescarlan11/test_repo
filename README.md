@@ -103,6 +103,30 @@ markdown-link-check README.md
 - Do not commit secrets, credentials, or private tokens.
 - Keep sensitive operational scripts outside this repository.
 
+### Local login helper
+
+This repository now includes [`login.sh`](./login.sh) and [`login.py`](./login.py), local password gates to help secure repository files by tightening file permissions.
+
+Basic usage:
+
+```bash
+./login.sh init
+./login.sh login
+./login.sh protect
+```
+
+```bash
+./login.py init
+./login.py login
+./login.py protect
+```
+
+Notes:
+
+- Password hash is stored in `.login_auth` (owner read/write only).
+- `protect` sets directories to `700` and files to `600` (owner-only), excluding `.git` internals.
+- For automated usage, set `LOGIN_PASSWORD` (and `LOGIN_PASSWORD_CONFIRM` for `init`).
+
 ## License
 
 No `LICENSE` file is currently present.
