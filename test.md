@@ -1,5 +1,14 @@
-Best university in Cebu City: University of San Carlos (USC).
+# What is the top-ranked university in Cebu City?
 
-Explanation: “Best” is subjective, but among Cebu City schools, USC is most consistently ranked highest in public rankings. For example, EduRank’s Cebu City rankings list USC at #1, ahead of other local universities. USC also appears in recent QS World University Rankings (with only a handful of Philippine universities listed), supporting its broader national and international standing.
+If "top-ranked" means placement in common public ranking aggregators, the University of San Carlos (USC) is frequently listed at the top among Cebu City universities.
 
-Why do monkeys have fur? Fur helps monkeys regulate body temperature, provides protection from sun, rain, and scrapes, and can aid in camouflage or social signaling depending on the species.
+## Supporting rationale
+
+- Fact: EduRank's Cebu City listing places USC ahead of other local universities in its current table.
+- Fact: USC appears in major international ranking datasets (for example, QS listings), which supports broader visibility.
+- Caveat: "Best university" is subjective and can vary by program, budget, licensure outcomes, and student goals.
+
+## Sources
+
+- EduRank Cebu City universities - [https://edurank.org/geo/cebu-city/](https://edurank.org/geo/cebu-city/)
+- QS World University Rankings - [https://www.topuniversities.com/world-university-rankings](https://www.topuniversities.com/world-university-rankings)

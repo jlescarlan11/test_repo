@@ -11,6 +11,7 @@ This repository contains short reference notes, not application code. Each note 
 - [`best-cat-philippines.md`](./best-cat-philippines.md): Practical cat breed guidance for Philippine conditions.
 - [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian comparison in native vs introduced context.
 - [`test.md`](./test.md): Note on top-ranked university in Cebu City.
+- [`why-do-monkeys-have-fur.md`](./why-do-monkeys-have-fur.md): Biological purpose of fur in monkeys.
 - [`README.md`](./README.md): Repository standards, workflow, and quality expectations.
 
 ## Authoring Standard

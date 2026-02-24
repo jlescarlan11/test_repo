@@ -1,18 +1,15 @@
-# Best Cat in the Philippines (My Pick)
+# What is the best cat for most households in the Philippines?
 
-**Answer:** A **Puspin** (short for *Pusang Pinoy* / Pinoy cat) — the local household cat.
+For most households in the Philippines, a Puspin (*pusang Pinoy*) is the best practical choice. This is an opinion-based recommendation grounded in local adoption availability and welfare impact.
 
-## Why this is my pick
-- **It’s the most Philippines‑appropriate choice.** “Puspin” is the local term for *Pusang Pinoy*, a general label for the everyday Filipino house cat rather than a pedigree breed.
-- **Adoption impact is high.** Local animal‑welfare groups in the Philippines (like PAWS and CARA) regularly place rescued cats for adoption. Choosing a Puspin directly supports responsible, local adoption.
-- **Purebreds are rare in shelters anyway.** Major rescue groups note that purebred cats are uncommon in their intakes and encourage adopting local cats instead.
+## Supporting rationale
 
-## If you want a “best” cat for *your* situation
-“Best” depends on your lifestyle. But for most households in the Philippines—first‑time cat owners, families, students, or anyone who wants to adopt responsibly—the Puspin is the most practical, ethical, and locally available choice.
+- Fact: "Puspin" is a local term used for non-pedigree domestic cats in the Philippines.
+- Fact: Philippine rescue groups such as PAWS and CARA focus heavily on local mixed-breed cat adoption.
+- Opinion: For most adopters, choosing a healthy Puspin is usually more practical and impactful than waiting for a pedigree breed.
 
-If you’re still unsure, visit a shelter and meet a few cats first. Personality and fit matter more than breed.
+## Sources
 
-## Sources (by organization or publication)
-- Philippine Animal Welfare Society (PAWS)
-- CARA Welfare Philippines
-- Philippine News Agency (PNA)
+- PAWS - [https://paws.org.ph/adopt/](https://paws.org.ph/adopt/)
+- CARA Welfare Philippines - [https://caraphil.org/adopt/](https://caraphil.org/adopt/)
+- Animal Kingdom Foundation (Puspin context) - [https://akf.org.ph/](https://akf.org.ph/)
