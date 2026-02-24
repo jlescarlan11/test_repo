@@ -1,54 +1,56 @@
 # Cebu City University Ranking Note
 
-A concise, source-based writeup identifying the most consistently top-ranked university in Cebu City, Philippines.
+Documentation repository for a short, source-based claim about which university is most consistently top-ranked in Cebu City, Philippines.
 
-## Purpose
-This repository contains a short research note that answers:
+## Scope
 
-- Which university is the best in Cebu City under widely cited public rankings?
+This repo maintains one primary note:
 
-The current conclusion in `test.md` identifies **University of San Carlos (USC)** as the strongest overall candidate based on recurring ranking presence.
+- [`test.md`](./test.md): Current conclusion and rationale.
 
-## Repository Structure
-- `README.md`: Project overview, standards, and maintenance guidance.
-- `test.md`: Primary note containing the claim and supporting rationale.
+The note currently identifies **University of San Carlos (USC)** as the strongest candidate under a consistency-based ranking lens.
 
-## Methodology
-The note uses a practical definition of “best” based on observable ranking consistency:
+## Evaluation Criteria
 
-- City-level ranking presence (Cebu City context)
-- National/international ranking visibility
-- Cross-source consistency over a single-source opinion
+The claim uses a practical definition of "best" based on repeated visibility across public ranking sources:
 
-## How To Use
-1. Open `test.md`.
-2. Review the main claim and justification.
-3. Validate cited ranking sources before reuse in external publications.
+- Cebu City relevance
+- National and international ranking presence
+- Cross-source consistency
 
-## Quality Standards
-To keep this repository production-ready:
+This repository does not claim a universal or permanent "best" institution. Conclusions are time-sensitive and source-dependent.
 
-- Keep statements evidence-based and clearly scoped.
-- Avoid absolute claims without a source and date context.
-- Update wording when rankings or methodologies change.
-- Use plain, concise language suitable for public sharing.
+## Editorial Standards
 
-## Maintenance Workflow
-1. Re-check referenced rankings.
-2. Update the conclusion text in `test.md` if evidence changes.
-3. Reflect any scope or process updates in `README.md`.
-4. Record meaningful changes with clear commit messages.
+Use these standards for all updates:
 
-## Versioning and Change Control
-No formal release tags are required for this small documentation repository, but all updates should be:
+- Keep statements factual, scoped, and dated when needed.
+- Avoid absolute language without clear evidence.
+- Separate claim text from unrelated content.
+- Keep wording concise and publication-ready.
 
-- Traceable in git history
-- Narrow in scope
-- Reviewed for factual accuracy
+## Update Procedure
+
+1. Re-validate cited rankings and their latest methodology.
+2. Update [`test.md`](./test.md) only when evidence materially changes.
+3. Update this README if scope, process, or standards change.
+4. Commit changes with clear, audit-friendly messages.
+
+## Verification Checklist
+
+Before merging documentation changes:
+
+- Sources are current and correctly represented.
+- Claims in `test.md` match cited evidence.
+- No unrelated text is mixed into the research note.
+- Markdown renders cleanly.
+
+## Repository Layout
+
+- [`README.md`](./README.md): Governance, standards, and maintenance guidance.
+- [`test.md`](./test.md): Primary research note.
 
 ## License
-No license file is currently present.
-Add a `LICENSE` file before redistributing content publicly.
 
-## Contact
-Use repository issues or pull requests for corrections and source updates.
+No `LICENSE` file is present.
+Add a license before public redistribution.
