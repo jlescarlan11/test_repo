@@ -1,69 +1,72 @@
-# Philippines Topic Notes
+# Philippines Q&A Notes Repository
 
-A markdown-first repository of concise, evidence-oriented notes on Philippines-focused topics.
+This repository stores standalone Markdown notes that answer specific questions, mainly about the Philippines. It is a content repository, not an application or library.
 
-## Overview
+## What this repository does
 
-This project stores reference notes, not application code. Each file addresses one focused question and presents a clear conclusion with supporting rationale.
+- Keeps one question per file
+- Gives a direct short answer first
+- Adds concise supporting rationale
+- Lists source links for factual claims
+- Includes scope/date caveats when needed
 
-## Contents
+## Current content
 
-- [`best-cat-philippines.md`](./best-cat-philippines.md): Cat breed guidance for Philippine conditions.
-- [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian analysis in native vs introduced context.
-- [`test.md`](./test.md): Note on the top-ranked university in Cebu City.
-- [`why-do-monkeys-have-fur.md`](./why-do-monkeys-have-fur.md): Biological function of fur in monkeys.
+- [`best-cat-philippines.md`](./best-cat-philippines.md): Recommendation for the most practical cat choice for many Philippine households
+- [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian answer with native-vs-introduced scope clarification
+- [`test.md`](./test.md): Cebu City top-ranked university based on a specific ranking source
+- [`why-do-monkeys-have-fur.md`](./why-do-monkeys-have-fur.md): Core biological reasons monkeys have fur
 
-## Editorial Standards
+## File format standard
 
-All notes should meet the following standards:
+Each note should follow this structure:
 
-- Open with a direct short answer.
-- Cover a single primary question per file.
-- Separate factual claims from opinion.
-- Cite current, verifiable sources for factual claims.
-- Use concise, neutral language.
+```md
+# <Question>
 
-## Note Template
+<Direct answer in 1-3 sentences.>
 
-Use this structure when creating or revising a note:
+## Supporting rationale
 
-1. `#` Title with the exact question or topic
-2. Short answer (1-3 sentences)
-3. Supporting rationale (bulleted)
-4. Sources
-5. Optional caveats or scope limits
+- Fact: ...
+- Fact: ...
+- Caveat/Opinion: ...
 
-## Contribution Process
+## Sources
+
+- <Source name> - <URL>
+```
+
+## Editorial rules
+
+- Keep wording neutral and concise.
+- Separate facts from opinion.
+- Use reliable references and working links.
+- Add explicit date/scope qualifiers for ranking or time-sensitive claims.
+
+## Maintenance workflow
 
 1. Select one note to add or revise.
-2. Verify claims and refresh outdated sources.
-3. Run markdown checks where available.
-4. Review rendering, structure, and readability.
+2. Re-check claims and refresh stale sources.
+3. Verify Markdown rendering and links.
+4. Confirm only intended files changed.
 5. Commit with a message that states what changed and why.
 
-## Quality Checklist
+## Validation checks
 
-A change is ready to merge when all conditions are satisfied:
-
-- Markdown renders correctly.
-- Internal links resolve.
-- Claims are sourced or clearly labeled as opinion.
-- Scope and certainty are not overstated.
-- Only intended files are modified.
-
-### Suggested Local Checks
+When available:
 
 ```bash
 markdownlint **/*.md
 markdown-link-check README.md
 ```
 
-If these tools are unavailable, complete a manual pass for headings, links, and readability.
+Manual fallback:
 
-## Versioning
-
-This repository does not currently publish tagged releases. Readiness is evaluated per commit using the quality checklist above.
+- Check Markdown heading hierarchy and readability.
+- Verify each local README link opens the expected file.
+- Spot-check external source links in changed notes.
 
 ## License
 
-No `LICENSE` file is currently present. Add one before external redistribution or reuse.
+No `LICENSE` file exists in this repository yet.
