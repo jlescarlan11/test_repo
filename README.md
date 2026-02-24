@@ -1,72 +1,69 @@
 # Philippines Topic Notes
 
-A markdown-first knowledge repository for concise, evidence-oriented notes about Philippines-focused topics.
+A markdown-first repository of concise, evidence-oriented notes on Philippines-focused topics.
 
-## Purpose
+## Overview
 
-This repository contains short reference notes, not application code. Each note should answer one specific question with a clear conclusion and concise supporting rationale.
+This project stores reference notes, not application code. Each file addresses one focused question and presents a clear conclusion with supporting rationale.
 
-## Repository Structure
+## Contents
 
-- [`best-cat-philippines.md`](./best-cat-philippines.md): Practical cat breed guidance for Philippine conditions.
-- [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian comparison in native vs introduced context.
-- [`test.md`](./test.md): Note on top-ranked university in Cebu City.
-- [`why-do-monkeys-have-fur.md`](./why-do-monkeys-have-fur.md): Biological purpose of fur in monkeys.
-- [`README.md`](./README.md): Repository standards, workflow, and quality expectations.
+- [`best-cat-philippines.md`](./best-cat-philippines.md): Cat breed guidance for Philippine conditions.
+- [`biggest-amphibian-philippines.md`](./biggest-amphibian-philippines.md): Largest amphibian analysis in native vs introduced context.
+- [`test.md`](./test.md): Note on the top-ranked university in Cebu City.
+- [`why-do-monkeys-have-fur.md`](./why-do-monkeys-have-fur.md): Biological function of fur in monkeys.
 
-## Authoring Standard
+## Editorial Standards
 
-All notes must follow these requirements:
+All notes should meet the following standards:
 
-- State the short answer in the opening paragraph.
-- Keep one primary question per file.
-- Distinguish factual claims from opinion.
-- Attribute factual claims to current, verifiable sources.
-- Use direct, concise wording.
+- Open with a direct short answer.
+- Cover a single primary question per file.
+- Separate factual claims from opinion.
+- Cite current, verifiable sources for factual claims.
+- Use concise, neutral language.
 
-## Recommended Note Template
+## Note Template
 
-Use this structure for new files:
+Use this structure when creating or revising a note:
 
-1. `#` Title with the exact question/topic.
-2. Short answer (1-3 sentences).
-3. Supporting rationale (bulleted).
-4. Sources.
-5. Optional caveats/scope limits.
+1. `#` Title with the exact question or topic
+2. Short answer (1-3 sentences)
+3. Supporting rationale (bulleted)
+4. Sources
+5. Optional caveats or scope limits
 
-## Contribution Workflow
+## Contribution Process
 
-1. Choose one note to add or update.
-2. Validate claims and refresh sources where needed.
-3. Run markdown quality checks.
-4. Perform manual readability and rendering review.
+1. Select one note to add or revise.
+2. Verify claims and refresh outdated sources.
+3. Run markdown checks where available.
+4. Review rendering, structure, and readability.
 5. Commit with a message that states what changed and why.
 
-## Quality Gate (Production Readiness)
+## Quality Checklist
 
-A change is ready to merge when all items below are true:
+A change is ready to merge when all conditions are satisfied:
 
 - Markdown renders correctly.
 - Internal links resolve.
-- Claims are either sourced or explicitly labeled as opinion.
-- Scope is clear and not overstated.
-- Only intentional files are modified.
+- Claims are sourced or clearly labeled as opinion.
+- Scope and certainty are not overstated.
+- Only intended files are modified.
 
 ### Suggested Local Checks
-
-Run these if available in your environment:
 
 ```bash
 markdownlint **/*.md
 markdown-link-check README.md
 ```
 
-If tools are unavailable, complete a manual pass for headings, links, and readability.
+If these tools are unavailable, complete a manual pass for headings, links, and readability.
 
 ## Versioning
 
-This repository currently does not use tagged releases. Production readiness is evaluated per-commit using the quality gate above.
+This repository does not currently publish tagged releases. Readiness is evaluated per commit using the quality checklist above.
 
 ## License
 
-No `LICENSE` file is currently present. Add a license before public redistribution or external reuse.
+No `LICENSE` file is currently present. Add one before external redistribution or reuse.
