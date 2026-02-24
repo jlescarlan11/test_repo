@@ -1,56 +1,68 @@
 # Cebu City University Ranking Note
 
-Documentation repository for a short, source-based claim about which university is most consistently top-ranked in Cebu City, Philippines.
+Source-controlled documentation for a single, evidence-based claim:
+which university is most consistently top-ranked in Cebu City, Philippines.
 
-## Scope
+## Purpose
 
-This repo maintains one primary note:
+This repository exists to keep one short research note accurate, scoped, and publishable.
+It is intentionally minimal and should not evolve into a general knowledge base.
 
-- [`test.md`](./test.md): Current conclusion and rationale.
+## Authoritative Content
 
-The note currently identifies **University of San Carlos (USC)** as the strongest candidate under a consistency-based ranking lens.
+- [`test.md`](./test.md): Primary note containing the claim and supporting rationale.
+- [`README.md`](./README.md): Repository policy, workflow, and quality gates.
 
-## Evaluation Criteria
+Files outside this scope are non-authoritative and should not be treated as research outputs.
 
-The claim uses a practical definition of "best" based on repeated visibility across public ranking sources:
+## Claim Scope
 
+The note evaluates "best university in Cebu City" using repeatability across public rankings, not personal preference.
+
+Evaluation lens:
 - Cebu City relevance
-- National and international ranking presence
-- Cross-source consistency
+- Visibility in national/international ranking systems
+- Cross-source consistency over time
 
-This repository does not claim a universal or permanent "best" institution. Conclusions are time-sensitive and source-dependent.
+Out of scope:
+- Program-specific rankings
+- Tuition/value judgments
+- Non-evidence-based preferences
 
-## Editorial Standards
+## Editorial Policy
 
-Use these standards for all updates:
+All updates must follow these rules:
 
-- Keep statements factual, scoped, and dated when needed.
-- Avoid absolute language without clear evidence.
-- Separate claim text from unrelated content.
-- Keep wording concise and publication-ready.
+- Keep claims factual, bounded, and time-aware.
+- Avoid universal wording unless directly supported by evidence.
+- Exclude unrelated content from the primary note.
+- Prefer concise language over narrative commentary.
 
-## Update Procedure
+## Update Workflow
 
-1. Re-validate cited rankings and their latest methodology.
-2. Update [`test.md`](./test.md) only when evidence materially changes.
-3. Update this README if scope, process, or standards change.
-4. Commit changes with clear, audit-friendly messages.
+1. Verify source freshness and methodology changes.
+2. Update [`test.md`](./test.md) only if evidence changes the conclusion or confidence.
+3. Ensure the note contains only in-scope content.
+4. Update this README when governance or process changes.
+5. Commit with a clear, audit-friendly message.
 
-## Verification Checklist
+## Release Readiness Checklist
 
-Before merging documentation changes:
+Before merge or publication:
 
-- Sources are current and correctly represented.
-- Claims in `test.md` match cited evidence.
-- No unrelated text is mixed into the research note.
-- Markdown renders cleanly.
+- All cited sources are current and correctly interpreted.
+- The claim and rationale in `test.md` are internally consistent.
+- `test.md` contains no unrelated text.
+- Markdown renders correctly in a standard viewer.
+- Repository status is clean except intentional changes.
 
 ## Repository Layout
 
-- [`README.md`](./README.md): Governance, standards, and maintenance guidance.
-- [`test.md`](./test.md): Primary research note.
+- [`README.md`](./README.md): Production documentation for standards and operations.
+- [`test.md`](./test.md): Canonical research note.
+- `best-cat-philippines.md`: Unscoped draft content (non-authoritative).
 
 ## License
 
-No `LICENSE` file is present.
-Add a license before public redistribution.
+No `LICENSE` file is currently present.
+Add one before public redistribution or downstream reuse.
